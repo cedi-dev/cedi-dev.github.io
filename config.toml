@@ -1,0 +1,53 @@
+ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*","content/homepage/\\.*","content/post/\\.*","content/\\.*"] # disable example pages as this is a single page
+baseURL = "https://av0.de/"
+languageCode = "en-US"
+title = "av0.de"
+theme = "bootstrap-bp-hugo-startpage"
+# googleAnalytics = "UA-123-45"
+copyright = "Cedric Kienzler"
+enableRobotsTXT = false
+pygmentsCodeFences = false
+canonifyurls = true
+paginate = 5
+
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
+
+[permalinks]
+    posts = "/:year/:month/:slug/"
+    post = "/:year/:month/:slug/"
+    pages = "/:slug/"
+    page = "/:slug/"
+
+[Author]  
+  name = "cedi"
+
+[params]
+  description = "Text about the site"
+  #images = ["logo.jpg"]
+  startPageColumns = false
+  welcomeText = "av0.de"
+
+[[params.searchEngines]]
+  name = "Google"
+  activated = false
+  url = "https://www.google.com/search"
+
+[[params.searchEngines]]
+  name = "DuckDuckGo"
+  activated = false
+  url = "https://duckduckgo.com/"
+
+[[params.searchEngines]]
+  name = "Bing"
+  activated = false
+  url = "https://www.bing.com/search"
+
+[[params.searchEngines]]
+  name = "Baidu"
+  activated = false
+  url = "https://baidu.com/s"
+  searchkey = "wd"
+
+[taxonomies]

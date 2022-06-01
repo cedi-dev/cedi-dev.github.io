@@ -1,0 +1,18 @@
+---
+- group: Utilities
+  items:
+    - title: GitHub
+      url: https://github.com/av0de/
+      icon: fab fa-github
+
+    - title: ArgoCD
+      url: https://argocd.av0.de/
+
+    - title: Grafana
+      url: https://grafana.av0.de/
+    
+    - title: Prometheus
+      url: https://www.prometheus.av0.de/
+
+    - title: Cloudflare
+      url: https://dash.cloudflare.com/
