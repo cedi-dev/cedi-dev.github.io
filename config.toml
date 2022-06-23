@@ -1,7 +1,7 @@
 ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*","content/homepage/\\.*","content/post/\\.*","content/\\.*"] # disable example pages as this is a single page
-baseURL = "https://av0.de/"
+baseURL = "/"
 languageCode = "en-US"
-title = "av0.de"
+title = "dash.cedi.dev"
 theme = "bootstrap-bp-hugo-startpage"
 # googleAnalytics = "UA-123-45"
 copyright = "Cedric Kienzler"
